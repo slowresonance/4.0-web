@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  text-transform: uppercase;
+
+  max-width: 800px;
+  margin: 120px auto;
+
+  color: var(--br-white);
+  background-color: var(--da-blue);
+
+  padding: 30px;
+}
+
+a {
+  color: var(--br-white);
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(50px, 1fr));
+
+  gap: 20;
+  margin-bottom: 120px;
+}
+
+/* Hero */
+
+#hero-nav {
+  grid-column: 1/9;
+
+  margin-bottom: 100px;
+}
+
+.hero-nav-links {
+  margin-right: 50px;
+}
+
+#hero-left {
+  grid-column: 1/5;
+}
+
+#hero-right {
+  grid-column: 7/9;
+}
+
+#hero-main-body,
+#hero-cd-body {
+  font-size: var(--large-text);
+  letter-spacing: -2px;
+  line-height: 1.1em;
+}
+
+#hero-date-loc {
+  grid-column: 1/9;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero-main-head,
+#hero-cd-head,
+#hero-date-head,
+#hero-loc-head {
+  margin-bottom: 15px;
+}
+
+#hero-reg {
+  background: url(./img/ticket.svg);
+  max-width: 234px;
+  height: 88px;
+
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#register-link {
+  color: var(--da-blue);
+}
+
+/* Sponsors */
+
+#ss-head {
+  grid-column: 1/9;
+
+  margin-bottom: 100px;
+}
+
+#ss-body {
+  grid-column: 1/9;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Schedules */
+
+#sch-head,
+.sch-day-head,
+.sch-day-body {
+  grid-column: 1/9;
+}
+
+#sch-head {
+  margin-bottom: 100px;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sch-day-head {
+  margin-bottom: 75px;
+}
+
+.event:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.sch-day-body:not(:last-child) {
+  margin-bottom: 150px;
+}
+
+/* F.A.Q */
+
+#faqs-head,
+#faqs-container {
+  grid-column: 1/9;
+}
+
+#faqs-head {
+  margin-bottom: 100px;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.faq-icon {
+  background-image: url(../img/faq-open.png);
+  height: 22px;
+  width: 22px;
+}
+
+/* Colors */
+
+#hero-main-head,
+#ss-head,
+#sch-head,
+#faqs-head {
+  color: var(--br-green);
+}
+
+#hero-cd-head {
+  color: var(--br-purple);
+}
+
+#hero-date-head,
+.event-loc {
+  color: var(--br-teal);
+}
+
+#hero-loc-head {
+  color: var(--br-pink);
+}
+
+/* Shia - Just do it */
+
+.hover-img a {
+  position: relative;
+}
+
+.hover-img a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+
+.hover-img a:hover span {
+  display: block;
+}
+
+.monotone {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Variables */
+
+:root {
+  --br-white: #ffffff;
+  --da-blue: #0b0b0c;
+  --br-green: #80ffa6;
+  --br-purple: #ada2f9;
+  --br-yellow: #faf173;
+  --br-pink: #fb74ad;
+  --br-teal: #74f1fb;
+
+  --large-text: 92px;
+}

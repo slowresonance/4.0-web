@@ -4,73 +4,136 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/style.css" />
-    <title>Ecficio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ecficio 4.0</title>
   </head>
   <body>
     <main id="app">
       <div class="grid-container">
-        <section class="hero-left">
+        <div id="hero-nav">
           <span class="hero-nav-links">About</span>
           <span class="hero-nav-links">F.A.Q</span>
           <span class="hero-nav-links">Schedule</span>
-        </section>
-        <section class="hero-mid">
-          <div class="hero-sub">The fourth iteration of</div>
-          <div class="hero-main">
-            Ecficio <br />
-            Goes <br />Hybrid*
+        </div>
+
+        <div id="hero-left">
+          <div id="hero-main">
+            <div id="hero-main-head">The Fourth Iteration Of</div>
+            <div id="hero-main-body">Ecficio Goes Hybrid*</div>
           </div>
-          <div class="hero-reg">
-            <div class="hero-button hover_img">
-              <a href="#"
+
+          <div id="hero-reg">
+            <div class="hero-button hover-img">
+              <a href="#" id="register-link"
                 >Register Now<span
                   ><img
+                    class="monotone"
                     src="./img/just-do-it.gif"
                     alt="image"
                     height="200" /></span
               ></a>
             </div>
           </div>
-        </section>
-        <section class="hero-right">
-          <div class="countdown">
-            <div class="countdown-head">Days to go</div>
-            <div class="countdown-timer">18</div>
+        </div>
+
+        <div id="hero-right">
+          <div id="hero-cd">
+            <div id="hero-cd-head">Days to Go</div>
+            <div id="hero-cd-body">17</div>
           </div>
-          <div class="dates-loc">
-            <div class="hero-dates">
-              <div class="date-head">Dates</div>
-              <div class="date-desc">13 - 14 Dec 2021</div>
-            </div>
-            <div class="hero-loc">
-              <div class="loc-head">Location</div>
-              <div class="loc-desc">VNR VJIET / Worldwide</div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <div class="sponsor-head">Powered By</div>
-      <div class="sponsor-container">
-        <div class="sponsors"><img src="./img/monster-logo.png" alt="" /></div>
-        <div class="sponsors">
-          <img src="./img/decathlon-logo.png" alt="" />
         </div>
       </div>
 
       <div class="grid-container">
-        <div class="faq-head">Frequently Asked Questions</div>
-        <div class="faq">
-          <div class="faq-content">Is Ecficio part of Convergence?</div>
-          <div class="faq-icon"></div>
+        <div id="hero-date-loc">
+          <div id="hero-date">
+            <div id="hero-date-head">Dates</div>
+            <div id="hero-date-body">13 - 14 Dec 2021</div>
+          </div>
+
+          <div id="hero-loc">
+            <div id="hero-loc-head">Location</div>
+            <div id="hero-loc-body">VNRVJIET / Worldwide</div>
+          </div>
         </div>
-        <div class="faq">
-          <div class="faq-content">How is Ecficio Pronounced?</div>
-          <div class="faq-icon"></div>
+      </div>
+
+      <div class="grid-container">
+        <span id="ss-head">Powered By</span>
+        <div id="ss-body">
+          <div class="ss"><img src="./img/monster-logo.png" alt="" /></div>
+          <div class="ss"><img src="./img/decathlon-logo.png" alt="" /></div>
         </div>
-        <div class="faq">
-          <div class="faq-content">What do you mean by Ecficio is Hybrid?</div>
-          <div class="faq-icon"></div>
+      </div>
+
+      <div class="grid-container">
+        <div id="sch-head">Schedule</div>
+        <span class="sch-day-head">Day 1</span>
+        <div class="sch-day-body">
+          <div class="event">
+            <div class="event-head">Suits</div>
+            <div class="event-loc">KS Audi</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Sherlocked Pt.1</div>
+            <div class="event-loc">SAC Stage</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Nat-Varttika</div>
+            <div class="event-loc">B 103</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Nirmoktr</div>
+            <div class="event-loc">Gallery Hall</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Decipher</div>
+            <div class="event-loc">SAC Stage</div>
+          </div>
+        </div>
+
+        <span class="sch-day-head">Day 2</span>
+        <div class="sch-day-body">
+          <div class="event">
+            <div class="event-head">Suits</div>
+            <div class="event-loc">KS Audi</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Sherlocked Pt.1</div>
+            <div class="event-loc">SAC Stage</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Nat-Varttika</div>
+            <div class="event-loc">B 103</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Nirmoktr</div>
+            <div class="event-loc">Gallery Hall</div>
+          </div>
+          <div class="event">
+            <div class="event-head">Decipher</div>
+            <div class="event-loc">SAC Stage</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div id="faqs-head">Frequently Asked Questions</div>
+        <div id="faqs-container">
+          <div class="faq">
+            <div class="faq-question">Is Ecficio part of Convergence?</div>
+            <div class="faq-icon"></div>
+          </div>
+          <div class="faq">
+            <div class="faq-question">How is Ecficio Pronounced?</div>
+            <div class="faq-icon"></div>
+          </div>
+          <div class="faq">
+            <div class="faq-question">
+              What do yoy mean by Ecficio is Hybrid?
+            </div>
+            <div class="faq-icon"></div>
+          </div>
         </div>
       </div>
     </main>
