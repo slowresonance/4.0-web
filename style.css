@@ -8,12 +8,12 @@
 body {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: var(--small-text);
 
   text-transform: uppercase;
 
   max-width: 800px;
-  margin: 120px auto;
+  margin: 100px auto;
 
   color: var(--br-white);
   background-color: var(--da-blue);
@@ -28,7 +28,7 @@ a {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(8, minmax(50px, 1fr));
+  grid-template-columns: repeat(8, minmax(30px, 1fr));
 
   gap: 20;
   margin-bottom: 120px;
@@ -43,11 +43,11 @@ a {
 }
 
 .hero-nav-links {
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 #hero-left {
-  grid-column: 1/5;
+  grid-column: 1/7;
 }
 
 #hero-right {
@@ -66,6 +66,18 @@ a {
 
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin-top: -30px;
+}
+
+#hero-date {
+  margin-right: 30px;
+}
+
+#hero-date,
+#hero-loc {
+  margin-top: 30px;
 }
 
 #hero-main-head,
@@ -77,8 +89,8 @@ a {
 
 #hero-reg {
   background: url(./img/ticket.svg);
-  max-width: 234px;
-  height: 88px;
+  max-width: 200px;
+  height: 75px;
 
   margin-top: 50px;
 
@@ -215,4 +227,12 @@ a {
   --br-teal: #74f1fb;
 
   --large-text: 92px;
+  --small-text: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --large-text: 50px;
+    --small-text: 14px;
+  }
 }
