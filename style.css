@@ -123,6 +123,28 @@ a {
   color: var(--da-blue);
 }
 
+#asterisk {
+  display: inline-block;
+  position: absolute;
+  margin-left: 10px;
+}
+
+#hybrid {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 /* Sponsors */
 
 #ss-head {
@@ -143,6 +165,7 @@ a {
 
 #ss-body img {
   margin-top: 20px;
+  max-width: 100%;
 }
 
 /* Schedules */
