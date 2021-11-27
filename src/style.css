@@ -26,11 +26,14 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 15px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, minmax(30px, 1fr));
 
-  gap: 20;
   margin-bottom: 120px;
 }
 
@@ -108,7 +111,7 @@ a {
 }
 
 #hero-reg {
-  background: url(./img/ticket.svg);
+  background: url(../img/ticket.svg);
   max-width: 200px;
   height: 75px;
 
@@ -209,16 +212,36 @@ a {
 }
 
 .faq {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(8, minmax(30px, 1fr));
 
   margin-bottom: 20px;
 }
 
+.faq-question {
+  grid-column: 1/8;
+}
+
+.faq-answer {
+  grid-column: 1/9;
+
+  margin: 30px 0 30px 30px;
+  text-transform: none;
+  font-weight: 400;
+}
+
 .faq-icon {
-  background-image: url(../img/faq-open.png);
+  cursor: pointer;
+  grid-column: 8/9;
+  background-image: url(../img/faq-open.svg);
+  justify-self: end;
   height: 22px;
   width: 22px;
+  transform: rotate(90deg);
+}
+
+.faq-open {
+  transform: rotate(45deg);
 }
 
 /* Colors */
@@ -294,4 +317,10 @@ a {
     --large-text: 50px;
     --small-text: 14px;
   }
+}
+
+/* JavaScript Changes */
+
+.display-none {
+  display: none;
 }
