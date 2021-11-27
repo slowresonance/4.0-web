@@ -190,6 +190,8 @@ p {
 .event {
   display: grid;
   grid-column: 1/9;
+
+  cursor: pointer;
 }
 
 .event-head {
@@ -236,7 +238,7 @@ p {
   justify-content: space-between;
 }
 
-.squiggle {
+.divider {
   width: 100%;
   margin-top: -10px;
   height: 95%;
@@ -260,6 +262,10 @@ p {
 
   padding: 16px 0 15px 0;
   border-bottom: 2px solid var(--dr-gray);
+}
+
+.faq:first-child {
+  border-top: 2px solid var(--dr-gray);
 }
 
 .faq-question {
