@@ -10,8 +10,6 @@ body {
   font-weight: 700;
   font-size: var(--small-text);
 
-  text-transform: uppercase;
-
   max-width: 800px;
   margin: 100px auto 0 auto;
 
