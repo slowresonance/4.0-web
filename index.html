@@ -5,330 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
-    <title>Ecficio 4.0</title>
+    <title>Ecficio</title>
   </head>
   <body>
-    <main id="app">
-      <div class="grid-container">
-        <div id="hero-nav">
-          <a href="" class="hero-nav-links">Home</a>
-          <a href="#sch-head" class="hero-nav-links">Schedule</a>
-          <a href="#faqs-head" class="hero-nav-links">F.A.Q</a>
+    <main class="app">
+      <div class="grid-container" id="sticky-menu">
+        <div id="primary-menu">
+          <div id="primary-nav">
+            <a href="#" class="nav-links">Home</a
+            ><a href="#schedule-head" class="nav-links">Schedule</a
+            ><a href="#faqs-head" class="nav-links">F.A.Q</a>
+          </div>
+          <div id="primary-button">
+            <button class="register">Register Now</button>
+          </div>
         </div>
+      </div>
 
+      <div class="grid-container">
         <div id="hero-left">
-          <div id="hero-main">
-            <div id="hero-main-head">The Fourth Iteration Of</div>
-            <div id="hero-main-body">
-              Ecficio <br />
-              Goes <br />
-              Hybrid
-              <div id="asterisk">
-                <a href="#faqs-head"
-                  ><img id="hybrid" src="./img/asterisk.svg" alt=""
-                /></a>
-              </div>
+          <div id="hero-left-top">The fourth iteration of</div>
+          <div id="hero-left-mid">
+            Ecficio <br />
+            Goes <br />Hybrid
+            <div id="asterisk">
+              <a href="#faqs-head"
+                ><img id="hybrid" src="./assets/asterisk.svg" alt=""
+              /></a>
             </div>
           </div>
-
-          <div id="hero-reg">
-            <div class="hero-button hover-img">
+          <span id="hero-left-bot">
+            <span class="hero-button hover-img">
               <a href="#" id="register-link"
                 >Register Now<span
                   ><img
                     class="monotone"
-                    src="./img/just-do-it.gif"
-                    alt="image"
-                    height="200" /></span
+                    src="./assets/just-do-it.gif"
+                    alt="image" /></span
               ></a>
-            </div>
-          </div>
+            </span>
+          </span>
         </div>
-
         <div id="hero-right">
-          <div id="hero-cd">
-            <div id="hero-cd-head">Days to go</div>
-            <div id="hero-cd-body">17</div>
+          <div id="hero-right-top">Days to go</div>
+          <div id="hero-right-bot">14</div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div id="sidekick">
+          <div id="sk-dates">
+            <div class="sk-head">Dates</div>
+            <div class="sk-body">13 - 14 Dec 2021</div>
+          </div>
+          <div id="sk-loc">
+            <div class="sk-head">Location</div>
+            <div class="sk-body">VNR VJIET / Worldwide</div>
           </div>
         </div>
       </div>
 
       <div class="grid-container">
-        <div id="hero-date-loc">
-          <div id="hero-date">
-            <div id="hero-date-head">Dates</div>
-            <div id="hero-date-body">13 - 14 Dec 2021</div>
+        <div id="sponsors-head" class="section-heading">Powered by</div>
+        <div id="sponsors-body">
+          <div class="sponsor">
+            <img src="./assets/monster-logo.svg" alt="" />
           </div>
-
-          <div id="hero-loc">
-            <div id="hero-loc-head">Location</div>
-            <div id="hero-loc-body">VNRVJIET / Worldwide</div>
+          <div class="sponsor">
+            <img src="./assets/decathlon-logo.svg" alt="" />
+          </div>
+          <div class="sponsor">
+            <img src="./assets/discord-logo.svg" alt="" />
           </div>
         </div>
       </div>
 
       <div class="grid-container">
-        <span id="ss-head">Powered By</span>
-        <div id="ss-body">
-          <div class="ss"><img src="./img/monster-logo.png" alt="" /></div>
-          <div class="ss"><img src="./img/decathlon-logo.png" alt="" /></div>
-        </div>
-      </div>
-
-      <div class="grid-container">
-        <div id="sch-head">Schedule</div>
-        <span class="sch-day-head">Day 1</span>
-        <div class="sch-day-body">
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Suits</div>
-              <div class="divider"></div>
-              <div class="event-loc">KS Audi</div>
+        <div id="schedule-head" class="section-heading">Schedule</div>
+        <div class="schedule-day">
+          <div class="day-head">Day 1</div>
+          <div class="day-body">
+            <div class="day-nav">
+              <div class="event-links" id="a01">Suits</div>
+              <div class="event-links" id="a02">Sherlocked Pt.1</div>
+              <div class="event-links" id="a03">Nat-varttika</div>
+              <div class="event-links" id="a04">Nirmoktr</div>
+              <div class="event-links" id="a05">Decipher</div>
             </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Sherlocked Pt.1</div>
-              <div class="divider"></div>
-              <div class="event-loc">SAC Stage</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Nat-Varttika</div>
-              <div class="divider"></div>
-              <div class="event-loc">B 103</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Nirmoktr</div>
-              <div class="divider"></div>
-              <div class="event-loc">Gallery Hall</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Decipher</div>
-              <div class="divider"></div>
-              <div class="event-loc">SAC Stage</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
+            <div class="event-frame">
+              <div class="event-desc"></div>
+              <div class="event-params"></div>
             </div>
           </div>
         </div>
-
-        <span class="sch-day-head">Day 2</span>
-        <div class="sch-day-body">
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Suits</div>
-              <div class="divider"></div>
-              <div class="event-loc">KS Audi</div>
+        <div class="schedule-day">
+          <div class="day-head">Day 2</div>
+          <div class="day-body">
+            <div class="day-nav">
+              <div class="event-links" id="b11">Suits</div>
+              <div class="event-links" id="b12">Sherlocked Pt.2</div>
+              <div class="event-links" id="b13">Nat-varttika</div>
+              <div class="event-links" id="b14">Nirmoktr</div>
+              <div class="event-links" id="b15">Decipher</div>
             </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Sherlocked Pt.1</div>
-              <div class="divider"></div>
-              <div class="event-loc">SAC Stage</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Nat-Varttika</div>
-              <div class="divider"></div>
-              <div class="event-loc">B 103</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Nirmoktr</div>
-              <div class="divider"></div>
-              <div class="event-loc">Gallery Hall</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
-          <div class="event">
-            <div class="event-header">
-              <div class="event-head">Decipher</div>
-              <div class="divider"></div>
-              <div class="event-loc">SAC Stage</div>
-            </div>
-            <div class="event-desc display-none">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
+            <div class="event-frame">
+              <div class="event-desc"></div>
+              <div class="event-params"></div>
             </div>
           </div>
         </div>
       </div>
-
       <div class="grid-container">
         <div id="faqs-head">Frequently Asked Questions</div>
-        <div id="faqs-container">
-          <div class="faq">
-            <div class="faq-question">Is Ecficio part of Convergence?</div>
-            <div class="faq-icon" id="ecf-conv"></div>
-            <div class="faq-answer display-none" id="ecf-conv-ans">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
+        <div id="faqs-body">
+          <details class="faq">
+            <summary id="ecf-conv" class="faq-ques">
+              Is Ecficio part of convergence?
+            </summary>
+            <div class="faq-ans">
+              Work together with your team to investigate a crime scene and
+              discover the truth behind it all.
             </div>
-          </div>
-          <div class="faq">
-            <div class="faq-question">How is Ecficio Pronounced?</div>
-            <div class="faq-icon" id="ecf-prn"></div>
-            <div class="faq-answer display-none" id="ecf-prn-ans">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
+          </details>
+          <details class="faq">
+            <summary id="ecf-pron" class="faq-ques">
+              How is Ecficio pronounced?
+            </summary>
+            <div class="faq-ans">
+              Work together with your team to investigate a crime scene and
+              discover the truth behind it all.
             </div>
-          </div>
-          <div class="faq">
-            <div class="faq-question">
-              What do you mean by Ecficio is Hybrid?
+          </details>
+          <details class="faq">
+            <summary id="ecf-hyb" class="faq-ques">
+              What do you mean by ecficio is Hybrid?
+            </summary>
+            <div class="faq-ans">
+              Work together with your team to investigate a crime scene and
+              discover the truth behind it all.
             </div>
-            <div class="faq-icon" id="ecf-hyb"></div>
-            <div class="faq-answer display-none" id="ecf-hyb-ans">
-              <p>
-                Put on your thinking cap, because this crime scene is RED HOT!
-                Work together with your team to investigate a crime scene and
-                discover the truth behind it all.
-              </p>
-              <p>
-                You will have to find clues, gather evidence, interrogate both
-                victims and suspects, and slowly piece together who the true
-                culprit is and how they did it.
-              </p>
-            </div>
-          </div>
+          </details>
         </div>
       </div>
     </main>
