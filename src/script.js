@@ -5,9 +5,9 @@ class Interface {
         this.createSchedule();
         this.simulateClick();
         this.highlightFaqs();
-        this.hybrid();
-        this.fav = document.getElementById("fav");
-        setInterval(this.favicon, 100);
+        // this.hybrid();
+        // this.fav = document.getElementById("fav");
+        // setInterval(this.favicon, 100);
     }
     hybrid() {
         let asterisk = document.getElementById("asterisk");
