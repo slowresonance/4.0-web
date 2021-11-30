@@ -5,7 +5,7 @@ class Interface {
         this.createSchedule();
         this.simulateClick();
         this.highlightFaqs();
-        // this.hybrid();
+        this.hybrid();
         // this.fav = document.getElementById("fav");
         // setInterval(this.favicon, 100);
     }
