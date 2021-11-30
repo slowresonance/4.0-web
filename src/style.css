@@ -344,6 +344,7 @@ p:not(:last-child) {
   opacity: 0.5;
 
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* Shia - Just do it */
