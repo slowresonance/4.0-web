@@ -16,8 +16,8 @@ body {
 
   line-height: 1.45;
 
-  color: var(--br-gray);
-  background-color: var(--dr-blue);
+  color: var(--br-white);
+  background-color: var(--dr-purple);
 }
 
 img {
@@ -25,7 +25,7 @@ img {
 }
 
 a {
-  color: var(--ml-blue);
+  color: var(--dr-purple);
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ p:not(:last-child) {
 #sticky-menu {
   position: sticky;
   top: 0px;
-  background: var(--dr-blue-blrd);
+  background: var(--dr-purple-blrd);
   backdrop-filter: blur(10px);
   padding: 10px 0 30px 0;
 
@@ -66,7 +66,7 @@ p:not(:last-child) {
 
 .nav-links {
   margin-right: 1.6em;
-  color: var(--br-gray);
+  color: var(--br-white);
 
   cursor: pointer;
 }
@@ -80,8 +80,8 @@ p:not(:last-child) {
   padding: 9px 20px;
   border-radius: 6px;
 
-  color: var(--br-white);
-  background-color: var(--br-pink);
+  color: var(--dr-purple);
+  background-color: var(--br-orange);
   border: none;
 }
 
@@ -111,7 +111,7 @@ p:not(:last-child) {
 
 #hero-left-top,
 #hero-right-top {
-  color: var(--ml-blue);
+  color: var(--br-purple);
 }
 
 #hero-right-top {
@@ -131,7 +131,7 @@ p:not(:last-child) {
 }
 
 #register-link {
-  color: var(--dr-blue);
+  color: var(--dr-purple);
 }
 
 #asterisk {
@@ -167,7 +167,7 @@ p:not(:last-child) {
 }
 
 .sk-head {
-  color: var(--ml-blue);
+  color: var(--br-peach);
 
   margin-bottom: 1em;
 }
@@ -249,7 +249,7 @@ p:not(:last-child) {
   height: 30px;
   grid-column: var(--in-screen);
 
-  color: var(--ml-blue);
+  color: var(--br-purple);
   padding-bottom: 50px;
   margin-bottom: 20px;
 }
@@ -257,7 +257,7 @@ p:not(:last-child) {
 .event-frame {
   grid-column: var(--in-screen);
 
-  border: 2px dashed var(--fd-blue);
+  border: 2px dashed var(--ml-purple);
 
   padding: 40px 30px 30px 40px;
   font-weight: 400;
@@ -288,9 +288,9 @@ p:not(:last-child) {
 }
 
 .active-event {
-  color: var(--dr-blue);
+  color: var(--dr-purple);
   padding: 8px 25px;
-  background-color: var(--ml-blue);
+  background-color: var(--br-purple);
 
   border-radius: 20px;
 }
@@ -302,7 +302,7 @@ p:not(:last-child) {
 
   margin-bottom: 100px;
   padding-top: 50px;
-  color: var(--ml-blue);
+  color: var(--br-purple);
 }
 
 #faqs-body {
@@ -327,7 +327,7 @@ p:not(:last-child) {
 }
 
 .faq-focus {
-  color: var(--ml-blue);
+  color: var(--br-purple);
 }
 
 /* Style Scheme */
@@ -380,7 +380,13 @@ p:not(:last-child) {
   --fd-blue: #192738;
   --dr-blue-blrd: #010912d9;
 
-  --br-green: #cbff4d;
+  --dr-purple-blrd: #151124e3;
+  --dr-purple: #151124;
+  --br-purple: #8f79eb;
+  --ml-purple: #352e53;
+
+  --br-yellow: #ffe34b;
+  --br-peach: #fa7362;
   --br-orange: #ffb84d;
   --fml-blue: #213857;
   --ml-blue: #6aa7f8;
