@@ -327,7 +327,7 @@ p:not(:last-child) {
 }
 
 .faq-focus {
-  color: var(--br-purple);
+  color: var(--br-orange);
 }
 
 /* Style Scheme */
