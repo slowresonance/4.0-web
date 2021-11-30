@@ -12,7 +12,7 @@ body {
   font-weight: 600;
 
   max-width: 800px;
-  margin: 40px auto;
+  margin: 2em auto;
 
   line-height: 1.45;
 
@@ -30,27 +30,27 @@ a {
 }
 
 p:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 1.5em;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(10, minmax(50px, 1fr));
+  grid-template-columns: var(--grid);
 
-  margin-bottom: 100px;
+  margin-bottom: 5em;
 }
 
 /* Menu Navigation */
 
 #primary-menu {
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 1.3em;
 
-  height: 10px;
+  height: 1em;
 }
 
 #sticky-menu {
@@ -65,7 +65,7 @@ p:not(:last-child) {
 }
 
 .nav-links {
-  margin-right: 30px;
+  margin-right: 1.6em;
   color: var(--br-gray);
 
   cursor: pointer;
@@ -88,11 +88,11 @@ p:not(:last-child) {
 /* Hero */
 
 #hero-left {
-  grid-column: 2/8;
+  grid-column: var(--hero-left);
 }
 
 #hero-right {
-  grid-column: 8/10;
+  grid-column: var(--hero-right);
 
   justify-self: end;
 }
@@ -123,7 +123,7 @@ p:not(:last-child) {
   max-width: 200px;
   height: 75px;
 
-  margin-top: 50px;
+  margin-top: 3em;
 
   display: flex;
   justify-content: center;
@@ -137,7 +137,7 @@ p:not(:last-child) {
 #asterisk {
   display: inline-block;
   position: absolute;
-  margin-left: 10px;
+  margin-left: 0.2em;
 }
 
 #hybrid {
@@ -160,7 +160,7 @@ p:not(:last-child) {
 /* Sidekick */
 
 #sidekick {
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
 
   display: flex;
   justify-content: space-between;
@@ -169,17 +169,17 @@ p:not(:last-child) {
 .sk-head {
   color: var(--ml-blue);
 
-  margin-bottom: 15px;
+  margin-bottom: 1em;
 }
 
 /* Sponsors */
 
 #sponsors-head {
-  padding-top: 50px;
+  padding-top: 3em;
 }
 
 #sponsors-body {
-  grid-column: 1/11;
+  grid-column: var(--out-screen);
 
   display: flex;
   justify-content: space-between;
@@ -211,16 +211,16 @@ p:not(:last-child) {
 /* Schedule */
 
 #schedule-head {
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
   padding-top: 40px;
   margin-bottom: 100px;
 }
 
 .schedule-day {
-  grid-column: 1/11;
+  grid-column: var(--out-screen);
 
   display: grid;
-  grid-template-columns: repeat(10, minmax(50px, 1fr));
+  grid-template-columns: var(--grid);
 }
 
 .schedule-day:not(:last-child) {
@@ -230,14 +230,14 @@ p:not(:last-child) {
 .day-head {
   font-size: 24px;
 
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
   margin: 0 auto 70px auto;
 }
 
 .day-body {
-  grid-column: 1/11;
+  grid-column: var(--out-screen);
   display: grid;
-  grid-template-columns: repeat(10, minmax(50px, 1fr));
+  grid-template-columns: var(--grid);
 }
 
 .day-nav {
@@ -247,19 +247,22 @@ p:not(:last-child) {
   align-items: center;
 
   height: 30px;
-  grid-column: 1/11;
+  grid-column: var(--in-screen);
 
   color: var(--ml-blue);
-  margin-bottom: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .event-frame {
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
 
   border: 2px dashed var(--fd-blue);
 
   padding: 40px 30px 30px 40px;
   font-weight: 400;
+
+  margin-top: 1em;
 }
 
 .event-params {
@@ -295,7 +298,7 @@ p:not(:last-child) {
 /* F.A.Q */
 
 #faqs-head {
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
 
   margin-bottom: 100px;
   padding-top: 50px;
@@ -303,7 +306,7 @@ p:not(:last-child) {
 }
 
 #faqs-body {
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
 }
 
 .faq {
@@ -334,7 +337,7 @@ p:not(:last-child) {
   font-weight: 400;
   letter-spacing: 4px;
 
-  grid-column: 2/10;
+  grid-column: var(--in-screen);
   margin: 0 auto 80px auto;
 
   opacity: 0.5;
@@ -384,6 +387,13 @@ p:not(:last-child) {
 
   --large-text: 96px;
   --small-text: 18px;
+
+  --grid: repeat(10, minmax(40px, 1fr));
+  --in-screen: 2/10;
+  --out-screen: 1/11;
+
+  --hero-left: 2/8;
+  --hero-right: 8/10;
 }
 
 @media screen and (max-width: 780px) {
@@ -411,7 +421,7 @@ p:not(:last-child) {
   }
 
   .day-nav {
-    grid-column: 2/10;
+    grid-column: var(--in-screen);
   }
 
   .day-nav {
@@ -428,11 +438,37 @@ p:not(:last-child) {
     width: 25px;
     height: 25px;
   }
+
+  .day-nav {
+    padding-bottom: 100px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   :root {
     --large-text: 50px;
     --small-text: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 2em;
+  }
+
+  :root {
+    --grid: repeat(8, minmax(40px, 1fr));
+    --in-screen: 1/9;
+    --out-screen: 1/9;
+
+    --hero-left: 1/7;
+    --hero-right: 7/9;
+  }
+
+  .day-body,
+  .grid-container,
+  .schedule-day {
+    display: grid;
+    grid-template-columns: var(--grid);
   }
 }
