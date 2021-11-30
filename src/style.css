@@ -116,6 +116,7 @@ p:not(:last-child) {
 
 #hero-right-top {
   justify-content: center;
+  white-space: nowrap;
 }
 
 #hero-left-bot {
