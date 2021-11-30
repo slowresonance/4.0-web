@@ -16,9 +16,21 @@ class Interface {
     this.createSchedule();
     this.simulateClick();
     this.highlightFaqs();
+    this.hybrid();
 
     this.fav = document.getElementById("fav");
     setInterval(this.favicon, 100);
+  }
+
+  hybrid() {
+    let asterisk = document.getElementById("asterisk");
+    let hybridFaq = document.getElementById("ecf-hyb");
+
+    asterisk.addEventListener("click", () => {
+      if (!hybridFaq.classList.contains("faq-focus")) {
+        hybridFaq.click();
+      }
+    });
   }
 
   favicon() {

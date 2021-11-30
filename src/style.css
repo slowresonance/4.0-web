@@ -85,7 +85,7 @@ p:not(:last-child) {
   background-color: var(--br-orange);
   border: none;
 
-  box-shadow: 0px 0px 20px 0px rgb(255 184 77 / 68%);
+  box-shadow: 0px 0px 20px 0px rgb(255 184 77 / 35%);
 }
 
 /* Hero */
@@ -298,7 +298,7 @@ p:not(:last-child) {
   background-color: var(--br-purple);
 
   border-radius: 20px;
-  box-shadow: #8f79eb38 0px 0px 20px 7px;
+  box-shadow: #8f79eb2e 0px 0px 20px 7px;
 }
 
 /* F.A.Q */
