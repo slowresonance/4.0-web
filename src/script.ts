@@ -18,7 +18,7 @@ class Interface {
     this.highlightFaqs();
 
     this.fav = document.getElementById("fav");
-    setInterval(this.favicon, 500);
+    setInterval(this.favicon, 100);
   }
 
   favicon() {

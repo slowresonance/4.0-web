@@ -6,7 +6,7 @@ class Interface {
         this.simulateClick();
         this.highlightFaqs();
         this.fav = document.getElementById("fav");
-        setInterval(this.favicon, 500);
+        setInterval(this.favicon, 100);
     }
     favicon() {
         let currentFav = parseInt(this.fav.getAttribute("href")[17]);
