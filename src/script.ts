@@ -8,6 +8,7 @@ class Interface {
   eventLinks: HTMLCollection;
   faqs: HTMLCollection;
   eventContent: JSON;
+  fav: HTMLElement;
 
   constructor(eventContent: string) {
     this.eventContent = JSON.parse(eventContent);
@@ -15,6 +16,16 @@ class Interface {
     this.createSchedule();
     this.simulateClick();
     this.highlightFaqs();
+
+    this.fav = document.getElementById("fav");
+    setInterval(this.favicon, 500);
+  }
+
+  favicon() {
+    let currentFav = parseInt(this.fav.getAttribute("href")[17]);
+    console.log(currentFav);
+    currentFav = (currentFav + 1) % 8;
+    this.fav.setAttribute("href", `./assets/favicon-${currentFav}.png`);
   }
 
   highlightFaqs() {

@@ -5,6 +5,14 @@ class Interface {
         this.createSchedule();
         this.simulateClick();
         this.highlightFaqs();
+        this.fav = document.getElementById("fav");
+        setInterval(this.favicon, 500);
+    }
+    favicon() {
+        let currentFav = parseInt(this.fav.getAttribute("href")[17]);
+        console.log(currentFav);
+        currentFav = (currentFav + 1) % 8;
+        this.fav.setAttribute("href", `./assets/favicon-${currentFav}.png`);
     }
     highlightFaqs() {
         this.faqs = document.getElementsByClassName("faq-ques");
