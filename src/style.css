@@ -37,7 +37,7 @@ p:not(:last-child) {
   display: grid;
   grid-template-columns: var(--grid);
 
-  margin-bottom: 5em;
+  margin-bottom: 6em;
 }
 
 /* Menu Navigation */
