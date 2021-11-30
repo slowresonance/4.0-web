@@ -10,7 +10,6 @@ class Interface {
     }
     favicon() {
         let currentFav = parseInt(this.fav.getAttribute("href")[17]);
-        console.log(currentFav);
         currentFav = (currentFav + 1) % 8;
         this.fav.setAttribute("href", `./assets/favicon-${currentFav}.png`);
     }
