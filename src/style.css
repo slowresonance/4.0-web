@@ -463,6 +463,9 @@ p:not(:last-child) {
 
     --hero-left: 1/7;
     --hero-right: 7/9;
+
+    --large-text: 50px;
+    --small-text: 16px;
   }
 
   .day-body,
