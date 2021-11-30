@@ -228,7 +228,7 @@ p:not(:last-child) {
 }
 
 .schedule-day:not(:last-child) {
-  margin-bottom: 100px;
+  margin-bottom: 140px;
 }
 
 .day-head {
