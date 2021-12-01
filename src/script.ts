@@ -18,8 +18,8 @@ class Interface {
     this.highlightFaqs();
     this.hybrid();
 
-    this.fav = document.getElementById("fav");
-    setInterval(this.favicon, 100);
+    // this.fav = document.getElementById("fav");
+    // setInterval(this.favicon, 100);
   }
 
   hybrid() {
