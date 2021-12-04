@@ -339,6 +339,34 @@ p:not(:last-child) {
   color: var(--br-peach);
 }
 
+/* Footer */
+.fab{
+  font-size:30px;
+  transition:0.35s;
+  padding:5px;
+  color:#8f79eb;
+}
+.fa-twitter:hover{
+  color:#55acee;
+
+}
+.fa-facebook-square:hover{
+  color:#3b5998;
+
+}
+.fa-instagram:hover{
+  color:purple;
+
+}
+.fa-snapchat-ghost:hover{
+  color:#fffc00;
+
+}
+.fa-linkedin:hover{
+  color:#0082ca;
+
+}
+
 /* Style Scheme */
 
 .section-heading {
