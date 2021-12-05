@@ -134,6 +134,12 @@ p:not(:last-child) {
   align-items: center;
 }
 
+.register-caption {
+  margin-top: 1em;
+
+  color: var(--br-orange);
+}
+
 #register-link {
   color: var(--dr-purple);
 }
@@ -304,6 +310,13 @@ p:not(:last-child) {
   box-shadow: #8f79eb2e 0px 0px 20px 7px;
 }
 
+.super {
+  vertical-align: super;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+}
+
 /* F.A.Q */
 
 #faqs-head {
@@ -337,6 +350,24 @@ p:not(:last-child) {
 
 .faq-focus {
   color: var(--br-peach);
+}
+
+/* Social */
+
+.social {
+  padding: 0.3em;
+  border-radius: 30px;
+  position: fixed;
+  right: 0.1em;
+  bottom: 0.1em;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icons {
+  width: 40px;
+  margin-right: 10px;
 }
 
 /* Style Scheme */
