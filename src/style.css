@@ -501,6 +501,7 @@ p:not(:last-child) {
 @media screen and (max-width: 500px) {
   body {
     padding: 0 2em 2em 2em;
+    margin-top: 1em;
   }
 
   :root {
