@@ -107,5 +107,29 @@
       "Come with a group of friends to play this super fun surprise game But shhhhh… we can’t tell you about it yet… It's a secret!"
     ],
     "params": ["? Players", "? Duration"]
+  },
+  "21": {
+    "name": "Start-Up Idea ",
+    "text": [
+      "There’s no shortage of remarkable ideas, what’s missing is the will to execute them.",
+      "This competition gives you a platform to get your  intriguing start up ideas validated, guided and incubated. Potential ideas with the best presentation will be rewarded with cash prizes.",
+      "The theme of the Start-up idea competition for Ecficio 4.0 is “Sustainable Development Goals(SDGs)”.",
+      "There are 17 SDGs. Teams should register their ideas in any one of the 17 SDGs. If your idea does not fit in any of 17 SDGs,  you can register your idea under the others category.",
+      "There are 2 rounds in this Start-up Idea Competition:",
+      "In Round 1, teams should submit an abstract of their idea before 5th December through the Google form. Shortlisted teams will qualify for Round",
+      "In Round 2, Each qualified team will be given a time slot where the members are expected to pitch ideas of their start up."
+    ],
+    "params": ["? Players", "? Duration"]
+  },
+  "22": {
+    "name": "Parishkaar",
+    "text": [
+      "The world around you is full of flaws . Whether it's the education sector , healthcare or agriculture , there is always a better, more efficient way of doing things.",
+      "What if we reveal to you the ingredients of the design world ?  With your creativity and the right tools you could come up with a brilliant solution that could perhaps make the world a better place!",
+      "In round one , you will make a selection among the given domains and choose a problem statement to pursue . Take the chance  to channel your inspiration by attending the workshop on design tools.",
+      "In round number two you will be evaluated by the jury based on your pitching , your idea and how you mould your solution by the design tools . ",
+      "An exciting cash prize of Rs 4000 awaits for the winner and the runner will receive Rs 2000 !"
+    ],
+    "params": ["? Players", "? Duration"]
   }
 }
