@@ -106,12 +106,16 @@ p:not(:last-child) {
   margin-bottom: 10px;
 }
 
-#hero-left-mid,
-#hero-right-mid {
+#hero-left-mid {
   font-size: var(--large-text);
   font-weight: 800;
   letter-spacing: -2px;
   line-height: 1.1em;
+}
+
+#hero-right-mid {
+  font-weight: 800;
+  font-size: 32px;
 }
 
 #hero-right-mid {
@@ -129,13 +133,6 @@ p:not(:last-child) {
 }
 
 #hero-right-bot {
-  background: url(../assets/goes-hybrid.svg) no-repeat;
-  width: 218px;
-  height: 244px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #hero-left-bot {
@@ -307,7 +304,7 @@ p:not(:last-child) {
 }
 
 .event-desc p {
-  line-height: 22px;
+  line-height: 26px;
 }
 
 .event-links {
@@ -538,4 +535,35 @@ p:not(:last-child) {
     display: grid;
     grid-template-columns: var(--grid);
   }
+}
+
+/* Extra */
+
+#workshops,
+#talks,
+#panel {
+  grid-column: var(--in-screen);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#workshops-head,
+#talks-head,
+#panel-head {
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+#workshops li,
+#talks li,
+#panel-body li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#workshops li::before,
+#talks li::before,
+#panel-body li::before {
+  content: "-> ";
+  color: var(--br-orange);
 }
