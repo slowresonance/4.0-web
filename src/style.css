@@ -96,8 +96,10 @@ p:not(:last-child) {
 
 #hero-right {
   grid-column: var(--hero-right);
-
+  align-items: flex-end;
   justify-self: end;
+  display: flex;
+  flex-direction: column;
 }
 
 #hero-left-top {
@@ -105,11 +107,15 @@ p:not(:last-child) {
 }
 
 #hero-left-mid,
-#hero-right-bot {
+#hero-right-mid {
   font-size: var(--large-text);
   font-weight: 800;
   letter-spacing: -2px;
   line-height: 1.1em;
+}
+
+#hero-right-mid {
+  padding-bottom: 1em;
 }
 
 #hero-left-top,
@@ -120,6 +126,16 @@ p:not(:last-child) {
 #hero-right-top {
   justify-content: center;
   white-space: nowrap;
+}
+
+#hero-right-bot {
+  background: url(../assets/goes-hybrid.svg) no-repeat;
+  width: 218px;
+  height: 244px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #hero-left-bot {
@@ -220,7 +236,7 @@ p:not(:last-child) {
 
 /* Schedule */
 
-#schedule-head {
+.schedule-head {
   grid-column: var(--in-screen);
   padding-top: 40px;
   margin-bottom: 100px;
@@ -439,8 +455,8 @@ p:not(:last-child) {
   --in-screen: 2/10;
   --out-screen: 1/11;
 
-  --hero-left: 2/8;
-  --hero-right: 8/10;
+  --hero-left: 2/6;
+  --hero-right: 7/10;
 }
 
 @media screen and (max-width: 780px) {

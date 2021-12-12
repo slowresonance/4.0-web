@@ -113,7 +113,7 @@ class Interface {
   }
 
   createCountdown() {
-    let cd = document.getElementById("hero-right-bot");
+    let cd = document.getElementById("hero-right-mid");
 
     let festStart = new Date("12/13/2021");
     let dateNow = new Date();
