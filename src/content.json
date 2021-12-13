@@ -13,7 +13,7 @@
       "Can you turn garbage into gold?",
       "You will have to think outside the box to take a failed product and transform it into one that can stand out and shine in the market"
     ],
-    "params": ["10AM – 5PM", "B – 007, 008"]
+    "params": ["10AM – 5PM", "B – 312, 313"]
   },
   "04": {
     "name": "Pic-It-Up Pt.1",
@@ -29,7 +29,7 @@
       "Challenge your ethical thinking in this tricky test of empathy.",
       "You and your partner will be tasked to find the ethically sound solutions to real world problems and situations "
     ],
-    "params": ["10AM – 5PM", "C – 201, 202"]
+    "params": ["10AM – 5PM", "D – 213, 214"]
   },
   "06": {
     "name": "Squid Game Pt.1",
@@ -60,7 +60,7 @@
     "text": [
       "Take your pitch to its limits. Conduct research, analyze competitors, and prepare a presentation to promote and sell your given product."
     ],
-    "params": ["10AM – 5PM", "B – 007, 008"]
+    "params": ["10AM – 5PM", "B – 312, 313"]
   },
   "13": {
     "name": "Pic-It-Up Pt.2",
@@ -75,7 +75,7 @@
       "Put your internet and network etiquette to the test!",
       "You’ll have to choose between two similar products to decide which can be considered “IP Right” and free against any potential violations"
     ],
-    "params": ["10AM – 5PM", "C – 201, 202"]
+    "params": ["10AM – 5PM", "D – 213, 214"]
   },
   "15": {
     "name": "Squid Game Pt.2",
@@ -89,6 +89,14 @@
       "You’ll have to make strong decisions in order to make the best of the given scenario, each with its own strengths and weaknesses."
     ],
     "params": ["10AM – 5PM", "A – 109, 110, 118"]
+  },
+  "17": {
+    "name": "Suits",
+    "text": [
+      "Put on your thinking cap, because this crime scene is RED HOT! Work together with your team to investigate a crime scene and discover the truth behind it all.",
+      "You will have to find clues, gather evidence, interrogate both victims and suspects, and slowly piece together who the true culprit is and how they did it."
+    ],
+    "params": ["A – 117, C – 305,313,314,"]
   },
   "21": {
     "name": "Start-Up Idea ",
