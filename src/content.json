@@ -13,7 +13,7 @@
       "Can you turn garbage into gold?",
       "You will have to think outside the box to take a failed product and transform it into one that can stand out and shine in the market"
     ],
-    "params": ["10AM – 5PM", "B – 312, 313"]
+    "params": ["10AM – 5PM", "B – 412, 413"]
   },
   "04": {
     "name": "Pic-It-Up Pt.1",
@@ -60,7 +60,7 @@
     "text": [
       "Take your pitch to its limits. Conduct research, analyze competitors, and prepare a presentation to promote and sell your given product."
     ],
-    "params": ["10AM – 5PM", "B – 312, 313"]
+    "params": ["10AM – 5PM", "B – 412,413"]
   },
   "13": {
     "name": "Pic-It-Up Pt.2",
@@ -96,14 +96,14 @@
       "Put on your thinking cap, because this crime scene is RED HOT! Work together with your team to investigate a crime scene and discover the truth behind it all.",
       "You will have to find clues, gather evidence, interrogate both victims and suspects, and slowly piece together who the true culprit is and how they did it."
     ],
-    "params": ["A – 117, C – 305,313,314,"]
+    "params": ["To be Announced"]
   },
   "21": {
     "name": "Start-Up Idea ",
     "text": [
       "This competition gives you a platform to get your intriguing start-up ideas (in regard to the given theme) validated, guided and incubated."
     ],
-    "params": ["13 Dec", "2:30 – 4:00PM", "B – 306"]
+    "params": ["13 Dec", "2:30 – 4:00PM", "B – 307"]
   },
   "22": {
     "name": "Parishkaar",
