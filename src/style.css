@@ -41,8 +41,20 @@ p:not(:last-child) {
   margin-bottom: 6em;
 }
 
-/* Menu Navigation */
+#notif {
+  display: flex;
+  position: sticky;
+  top: 2em;
+  margin-bottom: 1em;
+  border: 2px dashed #ffb84dab;
+  padding: 10px;
+}
 
+#msg {
+  margin: 0 auto;
+}
+
+/* Menu Navigation */
 #primary-menu {
   grid-column: var(--in-screen);
 

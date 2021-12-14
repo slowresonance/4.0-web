@@ -9,6 +9,7 @@ class Interface {
   faqs: HTMLCollection;
   eventContent: JSON;
   fav: HTMLElement;
+  scrollpos: Number;
 
   constructor(eventContent: string) {
     this.eventContent = JSON.parse(eventContent);
@@ -17,6 +18,8 @@ class Interface {
     this.simulateClick();
     this.highlightFaqs();
     this.hybrid();
+
+    this.scrollpos = scrollY;
 
     // this.fav = document.getElementById("fav");
     // setInterval(this.favicon, 100);
