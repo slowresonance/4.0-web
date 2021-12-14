@@ -579,3 +579,10 @@ p:not(:last-child) {
   content: "-> ";
   color: var(--br-orange);
 }
+
+#popup {
+  position: absolute;
+  z-index: 20000;
+  width: 80vh;
+  height: 100%;
+}
