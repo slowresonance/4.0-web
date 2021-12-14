@@ -125,26 +125,28 @@ p:not(:last-child) {
   line-height: 1.1em;
 }
 
-#hero-right-mid {
+#map-img {
+  margin-top: 0.5em;
+}
+
+.hero-right-mid {
   font-weight: 800;
   font-size: 32px;
 }
 
-#hero-right-mid {
+.hero-right-mid {
   padding-bottom: 1em;
 }
 
 #hero-left-top,
-#hero-right-top {
+.hero-right-top {
   color: var(--br-purple);
 }
 
-#hero-right-top {
+.hero-right-top {
   justify-content: center;
   white-space: nowrap;
-}
-
-#hero-right-bot {
+  text-align: end;
 }
 
 #hero-left-bot {
@@ -579,10 +581,7 @@ p:not(:last-child) {
   content: "-> ";
   color: var(--br-orange);
 }
-
-#popup {
+#popup-container {
   position: absolute;
   z-index: 20000;
-  width: 80vh;
-  height: 100%;
 }
